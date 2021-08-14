@@ -1,0 +1,29 @@
+{
+    "name": "shenshouzhihun",
+    "displayName": "神兽之魂",
+    "description": "神兽之魂 不一样的阅读体验",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "publisher": "悦笔",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/snippets-ts.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/snippets-js.json"
+            }
+        ]
+    }
+}
